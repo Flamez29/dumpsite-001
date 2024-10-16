@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starlight - Create an account / Sign-in </title>
+    <!--STYLE SHEET LINKS-->
+    <link rel="stylesheet" href="assets/css/signin.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign-In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class='bx bxl-google-plus'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-google-plus'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-google-plus'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-google-plus'></i></a>
+                </div>
+                <span>or use your password to login</span>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password">
+                <a href="#">Forgot your password?</a>
+                <button>Sign-in</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class='bx bxl-google-plus'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-google-plus'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-google-plus'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-google-plus'></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required  >
+                <button>Sign-Up</button>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your details to login to Starlight</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello Friend!</h1>
+                    <p>Register your details to Signup to Starlight</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="assets/js/sign-in.js"></script>
+</body>
+</html>
